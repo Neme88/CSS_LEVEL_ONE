@@ -7,8 +7,47 @@
 </head>
 <body>
     <h1>Welcome to this CSS full course notes</h1>
-    <h3>The Objectives of this course </h3>
-    <p>The Core objective of this course is to get advanced level knowledge of CSS before heading into boostrap</p>
+    <h2>The Objectives of this course </h2>
+    <h3>The Core objective of this course is to get advanced level knowledge of CSS before heading into boostrap</h3>
     <p> In this notes we will be taking down the headlines and highlights of all the topics we will learn in ths course for reference and review purposes</p>
+    <h3>Course file Structure</h3>
+    <ul>
+      <li>In this section of the course the notes are divided into Parts 1-5 and then we have a final Level assessment</li>
+      <li>Each part consists of an html file and a css file refers to the contents of the CSS Level One folder for more information</li>
+    </ul>
+    <h3>CSS Level Part One</h3>
+    <p>In this session we will cover the basics of CSS and how to link CSS file to our HTML file</p>
+    <p>CSS is a style sheet language used for describing the presentation of a document written in HTML or XML</p>
+    <h3>Example below is how to link CSS file to an html file</h3>
+    <code>
+      &lt;link rel="stylesheet" href="part1_master.css"&gt;
+    </code>
+    <p> In this example the link tag and its rel attribute is used to define that we are linking a CSS file while the href is use input the path to the css file it can be relative or absolute path depending on the location of the cs file in the machine.</p>
+    <p>When your CSS  file is properly link to html file all the styling changes you make in the css file reflect on the tags targeted </p>
+    <p>You can also style your html directly in the same file which is called inline styling however the best practice is to have a separate file for css code this for modularity</p>
+    <p>Comment in CSS</p>
+    <p>In CSS comments start with /* and end with */</p>
+    <P>Comment in CSS is used to add more readability in for the developer who is working on the code bass the when properly implemented the machine jumps of comment which means that comments gets ignored by the machine</P>
+    <h3>Example of comment in CSS</h3>
+    <code>
+      /* This is a comment in CSS */
+    </code>
+    <h3>CSS General form </h3>
+    <p>CSS rules are defined by selectors and declarations</p>
+       
+    <p>selected html tag also called selector, put the CSS property and to be applied on the html tag and it's value inside open and close curly bracket.</p>
+    <h3>Syntax Example</h3>
+    <p>
+      selector {
+        property: value;
+      }
+    </p>
+    <h3>code Example</h3>
+    <code>
+      selector = h1 {
+        property = color: value of property = red; semicolon = indicates that you are closing the selector
+      }
+    </code>
+
 </body>
 </html>
