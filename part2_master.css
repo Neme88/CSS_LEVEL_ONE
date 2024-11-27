@@ -3,14 +3,14 @@ body {
     background: #a39e9f;
 }
 
-h1{
+h1 {
     color:#fa193e;
 }
 
 p {
     color:#ffffff;
 }
-div{
+div {
 
     background-color: #9e933e;
     border: 1px;
@@ -18,7 +18,7 @@ div{
     width: 300px;
     
 }
-span{
+span {
 
     color: #3e599e;
     font-size: 25px;
